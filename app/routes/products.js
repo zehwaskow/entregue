@@ -1,5 +1,5 @@
 module.exports = (app) => {
-    app.get('/produtos', (req, resp) => {
+    app.get('/products', (req, resp) => {
         var connection = app.infra.connectionFactory();
         var produtosDAO = new app.infra.produtosDAO(connection);
 

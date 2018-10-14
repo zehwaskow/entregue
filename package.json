@@ -12,7 +12,8 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "express-load": "^1.1.16"
+    "express-load": "^1.1.16",
+    "pg": "^7.5.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"

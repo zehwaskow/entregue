@@ -16,6 +16,7 @@
     "pg": "^7.5.0"
   },
   "devDependencies": {
+    "eslint": "^5.7.0",
     "nodemon": "^1.18.3"
   },
   "repository": {

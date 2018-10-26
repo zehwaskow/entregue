@@ -1,6 +1,6 @@
-module.exports = function(app){
-    app.get('/auth', function(req, res) {
+module.exports = (app)=> {
+    app.get('/auth', (req, res) => {
         console.log('oh shit');
-        res.send(ok);
+        res.send('OK.');
     });
 };
